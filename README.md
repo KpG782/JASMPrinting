@@ -24,7 +24,7 @@ We proudly serve individuals, students, small businesses, and event organizers w
 
 | 🧭 Page        | 💬 Description                                                   |
 | -------------- | ---------------------------------------------------------------- |
-| `Home.html`    | Landing page with banner carousel, intro, and product highlights |
+| `index.html`   | Landing page with banner carousel, intro, and product highlights |
 | `Shop.html`    | Organized product display by category (Prints, Designs, Ideas)   |
 | `Contact.html` | Contact form, location map, and support info                     |
 | `About.html`   | Brand story, mission, vision, and customer testimonials          |
@@ -58,7 +58,7 @@ project-root/
 │ ├── index.css → Global styles and utility classes
 │ └── shop.css → Product grid styles and custom design
 │
-├── Home.html → Homepage
+├── index.html → Homepage
 ├── Shop.html → Product display section
 ├── Contact.html → Contact form & information
 ├── About.html → Company profile & vision
