@@ -1,625 +1,785 @@
 <!DOCTYPE html>
-<html>
-    <!-- start ng pagimport ng font,stuff and title-->
-<head>
-    <style>
-        box1{
-        box-sizing: border-box;
-        }
-
-        .column1 {
-        float: left;
-        width: 32.5%;
-        padding: 5px;
-        }
-
-        .row1::after {
-        content: "";
-        clear: both;
-        display: table;
-        }
-
-        .center {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        }
-    </style>
-  
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
     <title>Shop - JASM Printing Services</title>
-    <link rel="shortcut icon" href="AllPics/HomePics/jasm water before.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="CSS/shop.css">
-    <link rel="stylesheet" type="text/css" href="CSS/index.css">
-    <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
-</head>
-<!-- end ng pagimport ng font,stuff and title-->
-<body>
-    <!--start ng ads-->
-    <div class="SALE">
-        <marquee style="hspace: 10px; ">
-            <h1><span style="font-family: Nunito-ExtraBold; padding-top: 5px;">11.11 DEALS ARE HERE! </span> ㅤ| ㅤCLICK FOR DETAILS ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤUSE CODE <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">"TMK-EPS"</span> FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-                <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">FREE PHOTOCARD (1 PIECE)</span> FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ11.11 DEALS ARE HERE! </span> ㅤ| ㅤCLICK FOR DETAILS ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤUSE CODE <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">"TMK-EPS"</span>                FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-                <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">FREE PHOTOCARD (1 PIECE)</span> FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ11.11 DEALS ARE HERE! </span> ㅤ| ㅤCLICK FOR DETAILS ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤUSE CODE <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">"TMK-EPS"</span>                FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-                <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">FREE PHOTOCARD (1 PIECE)</span> FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ11.11 DEALS ARE HERE! </span> ㅤ| ㅤCLICK FOR DETAILS ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤUSE CODE <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">"TMK-EPS"</span>                FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ
-                <span style="font-family: Nunito-ExtraBold; padding-top: 5px;">FREE PHOTOCARD (1 PIECE)</span> FOR THE FIRST 20 PERSONSㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ</h2>
-        </marquee>
+    <link rel="shortcut icon" href="AllPics/HomePics/jasm water before.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="CSS/shop.css" />
+    <link rel="stylesheet" href="CSS/index.css" />
+    <script
+      src="https://kit.fontawesome.com/dbed6b6114.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <!-- SALE BANNER -->
+    <div
+      class="SALE"
+      style="
+        background: var(--primary-color);
+        color: #fff;
+        padding: 0.5rem 0;
+        text-align: center;
+      "
+    >
+      <marquee
+        style="
+          font-family: Quicksand, sans-serif;
+          font-weight: 700;
+          font-size: 1.1rem;
+          letter-spacing: 1px;
+        "
+      >
+        <img
+          src="AllPics/ShopPics/FeatureS1.png"
+          alt="Prints"
+          style="height: 22px; vertical-align: middle; margin-right: 8px"
+        />
+        E-PRINTS
+        <img
+          src="AllPics/ShopPics/FeatureS2.png"
+          alt="Designs"
+          style="height: 22px; vertical-align: middle; margin: 0 8px 0 24px"
+        />
+        E-DESIGNS
+        <img
+          src="AllPics/ShopPics/Feature3.png"
+          alt="Ideas"
+          style="height: 22px; vertical-align: middle; margin: 0 8px 0 24px"
+        />
+        E-IDEAS | 11.11 DEALS ARE HERE! | USE CODE "TMK-EPS" FOR THE FIRST 20
+        PERSONS | FREE PHOTOCARD (1 PIECE) FOR THE FIRST 20 PERSONS
+      </marquee>
     </div>
-    <!--end ng ads-->
+    <!-- HEADER -->
+    <header class="site-header">
+      <div class="container flex space-between align-center">
+        <a href="Home.html" class="logo">
+          <img src="AllPics/HomePics/logo last try.png" alt="JASM Logo" />
+        </a>
+        <nav class="main-nav">
+          <ul class="nav-links flex">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Shop.html" class="active">Shop & Collections</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+          </ul>
+        </nav>
+        <div class="nav-icons"></div>
+      </div>
+    </header>
 
-     <!--start ng nav bar-->
-     <nav>
-        <a href="Home.html"><img class="logo" src="AllPics/HomePics/logo last try.png" class="logo" style="height: 60px; padding-left: 20px;"></a>
-        <ul>
-            <li><a href="Home.html" class="underline">Home</a></li>
-            <li><a href="Shop.html" class="underline">Shop & Collections</a></li>
-        </ul>
-        <div class="icons" style="border: black;">
-            <a href="Contact.html"><img src="AllPics/HomePics/iCall.png" style="height: 22px; padding-left: 20px; padding-right: 20px;"></a>
-            <a href="About.html"><img src="AllPics/HomePics/iHuman.png" style="height: 30px; padding-left: 28px;"></a>
-        </div>
-    </nav>
-    <!--end ng nav bar-->
-
-    <!--start ng side bar-->
-    <div id="sidebar" class="sidenav" style="position: fixed;">
-        <a href="#E-Prints" id="Prints"><img src="AllPics/ShopPics/FeatureS1.png" style="height: 20px;"></a>
-        <a href="#E-Designs" id="Designs"><img src="AllPics/ShopPics/FeatureS2.png" style="height: 30px;"></a>
-        <a href="#E-Ideas" id="Ideas"><img src="AllPics/ShopPics/Feature3.png" style="height: 20px;"></a>
+    <!-- SIDEBAR -->
+    <div id="sidebar" class="sidenav animate__animated animate__fadeInLeft">
+      <a
+        href="#E-Prints"
+        id="Prints"
+        class="sidebar-link-inline animate__animated animate__fadeInLeft animate__delay-1s"
+      >
+        <img
+          src="AllPics/ShopPics/FeatureS1.png"
+          alt="Prints"
+          style="height: 28px"
+        />
+      </a>
+      <a
+        href="#E-Designs"
+        id="Designs"
+        class="sidebar-link-inline animate__animated animate__fadeInLeft animate__delay-2s"
+      >
+        <img
+          src="AllPics/ShopPics/FeatureS2.png"
+          alt="Designs"
+          style="height: 28px"
+        />
+      </a>
+      <a
+        href="#E-Ideas"
+        id="Ideas"
+        class="sidebar-link-inline animate__animated animate__fadeInLeft animate__delay-3s"
+      >
+        <img
+          src="AllPics/ShopPics/Feature3.png"
+          alt="Ideas"
+          style="height: 28px"
+        />
+      </a>
     </div>
     <!--end ng side bar-->
 
-    <!--umpisa ng slideshow-->
-    <div class="slide-container">
-        <span id="slider-image-1"></span>
-        <span id="slider-image-2"></span>
-        <span id="slider-image-3"></span>
-        <div class="image-container">
-            <img src="AllPics/ShopPics/slide1.png" class="slider-image" id="slider-image-1">
-            <img src="AllPics/ShopPics/slide2.png" class="slider-image" id="slider-image-2">
-            <img src="AllPics/ShopPics/slide3.png" class="slider-image" id="slider-image-3">
-        </div>
+    <!-- HERO BANNER -->
+    <section class="hero-banner">
+      <div class="container">
+        <h1>Shop & Collections</h1>
+        <p>
+          Discover our best-selling prints, custom designs, and creative ideas.
+          Quality, speed, and style—delivered.
+        </p>
+      </div>
+    </section>
+
+    <!-- SLIDESHOW -->
+    <div
+      class="slide-container animate__animated animate__fadeIn animate__slower"
+    >
+      <div class="image-container">
+        <img
+          src="AllPics/ShopPics/slide1.png"
+          class="slider-image animate__animated animate__zoomIn"
+          alt="Slide 1"
+        />
+        <img
+          src="AllPics/ShopPics/slide2.png"
+          class="slider-image animate__animated animate__zoomIn animate__delay-1s"
+          alt="Slide 2"
+        />
+        <img
+          src="AllPics/ShopPics/slide3.png"
+          class="slider-image animate__animated animate__zoomIn animate__delay-2s"
+          alt="Slide 3"
+        />
+      </div>
     </div>
-    <br>
-    <div style="text-align:center">
-        <a class="dot" href="#slider-image-1"></a>
-        <a class="dot" href="#slider-image-2"></a>
-        <a class="dot" href="#slider-image-3"></a>
-    </div>
-    <!--end ng slideshow-->
-
-    <!--start ng shop-->
-    <br>
-    <div class="collections">
-        <h1 class="lg-title ">Sections</h1> <br> <br> <br>
-        <div class="threecolumns ">
-            <div class="column-footer " style="display: flex;justify-content: center;">
-                <a href="#E-Prints"> <img src="AllPics/ShopPics/Feature1.png" style="height: 100px; ">
-                </a>
-            </div>
-
-            <div class="column-footer " style="display: flex;justify-content: center;">
-                <a href="#E-Designs"><img src="AllPics/ShopPics/Feature2.png" style="height: 100px; ">
-                </a>
-            </div>
-            <div class="column-footer " style="display: flex;justify-content: center;">
-                <a href="#E-Ideas"><img src="AllPics/ShopPics/Feature3.png" style="height: 100px; ">
-                </a>
-
-            </div>
-        </div>
-        <br> <br> <br><br> <br> <br>
+    <div style="text-align: center; margin-bottom: 2rem">
+      <a class="dot" href="#slider-image-1"></a>
+      <a class="dot" href="#slider-image-2"></a>
+      <a class="dot" href="#slider-image-3"></a>
     </div>
 
-    <div class=" products ">
-        <!-- E-Prints -->
-        <div class="container " id="E-Prints">
-            <h1 class="lg-title "> <img src="AllPics/ShopPics/Title1.png" style="height: 100px; "> </img></h1>
-            <div class="product-items ">
-                <!-- 1 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/1.png" alt="product image " style="height: 320px; margin-left: -4px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Business Card</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 150.00</p>
-                    </div>
-                    <div class="off-info ">
-                        <h2 class="sm-title ">Best Seller</h2>
-                    </div>
-                </div>
-                <!-- 2 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/2.png" alt="product image " style="height: 310px; margin-left: 1px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Company ID</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 350.00</p>
-                    </div>
-                </div>
-                <!-- 3 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/3.png" alt="product image " style="height: 310px; margin-left: -20px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">School ID</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 300.00</p>
-                    </div>
-                </div>
-                <!-- 4 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/4.png" alt="product image " style="height: 310px; margin-left: -10px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Invitation Cards</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 120.00</p>
-                    </div>
-                </div>
-                <!-- 5 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/5.png" alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Rent</h2>
-                        </div>
-                        <a href="# " class="product-name ">Photoshoot Samples</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 500.00</p>
-                    </div>
+    <!-- COLLECTIONS NAV -->
+    <section class="collections">
+      <h2 class="section-title">Sections</h2>
+      <div class="grid-3">
+        <div class="text-center">
+          <a href="#E-Prints"
+            ><img src="AllPics/ShopPics/Feature1.png" alt="Prints"
+          /></a>
+        </div>
+        <div class="text-center">
+          <a href="#E-Designs"
+            ><img src="AllPics/ShopPics/Feature2.png" alt="Designs"
+          /></a>
+        </div>
+        <div class="text-center">
+          <a href="#E-Ideas"
+            ><img src="AllPics/ShopPics/Feature3.png" alt="Ideas"
+          /></a>
+        </div>
+      </div>
+    </section>
 
-                </div>
-                <!-- 6 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/6.png " alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Design</h2>
-
-                        </div>
-                        <a href="# " class="product-name ">Tarpaulin</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 200.00</p>
-                    </div>
-
-                </div>
-                <!-- 7 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/7.png" alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-
-                        </div>
-                        <a href="# " class="product-name ">Bottle Labels</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 170.00</p>
-                    </div>
-                </div>
-                <!-- 8 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/15.png" alt="product image " style="height: 400px; margin-left: -50px; margin-top:-50px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Style</h2>
-                        </div>
-                        <a href="# " class="product-name ">T-Shirt Printing</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 300.00</p>
-                    </div>
-                </div>
+    <!-- PRODUCTS -->
+    <section
+      class="products container animate__animated animate__fadeInUp animate__delay-1s"
+      id="E-Prints"
+    >
+      <h2 class="section-title">
+        <img
+          src="AllPics/ShopPics/Title1.png"
+          alt="E-Prints"
+          style="height: 60px; vertical-align: middle"
+        />
+      </h2>
+      <div class="product-items">
+        <!-- 1 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/1.png"
+                alt="product image "
+                style="height: 320px; margin-left: -4px; margin-top: -10px"
+              />
             </div>
-        </div>
-        
-        <!-- E-Designs -->
-        <div class="container " id="E-Designs">
-            <h1 class="lg-title "> <img src="AllPics/ShopPics/Title2.png" style="height: 100px; "> </img></h1>
-            <div class="product-items ">
-                <!-- 1 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/9.png" alt="product image " style="height: 320px; margin-left: -4px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">A3/A4 Photo Mosaic</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 70.00</p>
-                    </div>
-                </div>
-                <!-- 2 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/10.png" alt="product image " style="height: 310px; margin-left: 1px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Rent</h2>
-                        </div>
-                        <a href="# " class="product-name ">Graduation Photoshoot</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 800.00</p>
-                    </div>
-                    <div class="off-info ">
-                        <h2 class="sm-title ">Best Seller</h2>
-                    </div>
-                </div>
-                <!-- 3 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/11.png" alt="product image " style="height: 310px; margin-left: -10px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Button Pin</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 40.00</p>
-                    </div>
-                </div>
-                <!-- 4 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/12.png" alt="product image " style="height: 310px; margin-left: -10px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Personalized Tumblers</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 150.00</p>
-                    </div>
-                </div>
-                <!-- 5 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/13.png" alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Personalized Mugs</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 120.00</p>
-                    </div>
-
-                </div>
-                <!-- 6 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/14.png " alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-
-                        </div>
-                        <a href="# " class="product-name ">CD/DVD Direct Printing</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 60.00</p>
-                    </div>
-
-                </div>
-                <!-- 7 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/8.png" alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Design</h2>
-
-                        </div>
-                        <a href="# " class="product-name ">Printing Props</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 60.00</p>
-                    </div>
-                </div>
-                <!-- 8 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/16.png" alt="product image " style="height: 400px; margin-left: -50px; margin-top:-50px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Key Chain Designs</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 100.00</p>
-                    </div>
-                </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
             </div>
+            <a href="# " class="product-name">Business Card</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 150.00</p>
+          </div>
+          <div class="off-info">
+            <h2 class="sm-title">Best Seller</h2>
+          </div>
         </div>
-
-        <!-- E-Ideas -->
-        <div class="container " id="E-Ideas">
-            <h1 class="lg-title "> <img src="AllPics/ShopPics/Title3.png" style="height: 100px; "> </img></h1>
-            <div class="product-items ">
-                <!-- 1 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/17.png" alt="product image " style="height: 320px; margin-left: -4px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Bond</h2>
-                        </div>
-                        <a href="# " class="product-name ">E Copy Bond Paper</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱100.00</p>
-                    </div>
-                    <div class="off-info ">
-                        <h2 class="sm-title ">Best Seller</h2>
-                    </div>
-                </div>
-                <!-- 2 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/18.png" alt="product image " style="height: 310px; margin-left: 1px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Heat Press Golf Umbrella</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 130.00</p>
-                    </div>
-                </div>
-                <!-- 3 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/19.png" alt="product image " style="height: 310px; margin-left: -10px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Hand Press Flashlight </a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 70.00</p>
-                    </div>
-                </div>
-                <!-- 4 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/20.png" alt="product image " style="height: 310px; margin-left: -10px; margin-top:-10px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Heat Press Eco Bag</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 100.00</p>
-                    </div>
-                </div>
-                <!-- 5 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/21.png" alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Plate No. Stickers</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 200.00</p>
-                    </div>
-
-                </div>
-                <!-- 6 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/22.png " alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-
-                        </div>
-                        <a href="# " class="product-name ">Towel Cake</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 300.00</p>
-                    </div>
-
-                </div>
-                <!-- 7 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/23.png" alt="product image " style="height: 420px; margin-left: -60px; margin-top:-60px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Paper</h2>
-                        </div>
-                        <a href="# " class="product-name ">Vinyl Stickers</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 60.00</p>
-                    </div>
-                    <div class="off-info ">
-                        <h2 class="sm-title ">Hot</h2>
-                    </div>
-                </div>
-                <!-- 8 -->
-                <div class="product ">
-                    <div class="product-content ">
-                        <div class="product-img ">
-                            <img src="AllPics/ShopPics/Picture/24.png" alt="product image " style="height: 400px; margin-left: -50px; margin-top:-50px; ">
-                        </div>
-                    </div>
-                    <div class="product-info ">
-                        <div class="product-info-top ">
-                            <h2 class="sm-title ">Per Piece</h2>
-                        </div>
-                        <a href="# " class="product-name ">Alcohol</a>
-                        <p class="product-price "></p>
-                        <p class="product-price ">₱ 100.00</p>
-                    </div>
-                </div>
+        <!-- 2 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/2.png"
+                alt="product image "
+                style="height: 310px; margin-left: 1px; margin-top: -10px"
+              />
             </div>
-        </div>
-        
-    
-
-    </div>
-    <!--end ng shop-->
-
-    <!--start ng team iii-->
-    <div class="row1">
-        <div class="column1">
-            <h1 style="text-align: center;">Imagine</h1>
-            <img src="AllPics/ShopPics/Imagine.png" alt="1" style="width: 100%;">
-        </div>
-        <div class="column1">
-            <h1 style="text-align: center;">Innovate</h1>
-            <img src="AllPics/ShopPics/Innovate.png" alt="1" style="width: 100%;">
-        </div>
-        <div class="column1">
-            <h1 style="text-align: center;">Inspire</h1>
-            <img src="AllPics/ShopPics/Inspire.png" alt="1" style="width: 100%;">
-        </div>
-    </div>
-    <!--end ng iii-->
-    
-    <img class="img-foot" src="AllPics/ShopPics/lower banner 1.png">
-
-    <!--start ng footer-->
-    <div class="footer ">
-        <div class="threecolumns ">
-            <div class="column-footer ">
-
-                <h1 style=" padding-top: 40px; ; ">
-                    <img src="AllPics/HomePics/iPalette.png" style="height: 13px; "> ALL-UNIQUELY DESIGNED
-                </h1>
-
-                <h1 style=" padding-top: 20px; line-height:; "> We ensure that our merchandise and services is full of creative and fun designs that are uniquely made. #ChooseJASM</h1>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
             </div>
-            <div class="column-footer ">
-                <h1 style="padding-top: 40px; "><img src="AllPics/HomePics/iPrice.png" style="height: 13px; "> ETHICALLY SOURCED</h1>
-                <h1 style="padding-top: 20px; "> We promise that our business are sourced responsibly and does not promote any bad example that may exhibit bad idea to other companies.</h1>
-            </div>
-            <div class="column-footer ">
-                <h1 style="padding-top: 40px; "><img src="AllPics/HomePics/iAsk.png" style="height: 13px; "> GET IN TOUCH</h1>
-                <h1 style="padding-top: 20px; ">Do you have any questions? Please get in touch with us at any time and we 'll be happy to assist you.</h1>
-            </div>
+            <a href="# " class="product-name">Company ID</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 350.00</p>
+          </div>
         </div>
-        <div>
-            <div style="width: 50%; float:left">
-                <h1 style="padding-left: 40px; padding-top: 40px;padding-bottom: 10px; color: white; font-size: 15px;"> NEWSLETTER</h1>
-                <hr style="margin-right: 40px;margin-left: 40px;">
-                <div class="input-group newsletter-form" bis_skin_checked="1">
-                    <input type="email" style="padding: 10px; margin-left: 40px;margin-top: 20px; width: 585px; margin-bottom: 0;" placeholder="Email Address (Ex. johndoe@gmail.com)" id="mail" class="input-group-field" aria-label="your-email@example.com" autocorrect="off"
-                        autocapitalize="off" name="contact[email]">
-                    <span class="input-group-btn">
-                <input type="submit" id="subscribe" style="padding: 10px;" onclick="alert" >
-                </span>
-                </div>
+        <!-- 3 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/3.png"
+                alt="product image "
+                style="height: 310px; margin-left: -20px; margin-top: -10px"
+              />
             </div>
-            <div style="width: 50%; float:right;">
-                <h1 style="padding-left: 40px; padding-top: 40px;padding-bottom: 10px; color: white; font-size: 15px;"> VISIT AND FOLLOW US</h1>
-                <hr style="margin-right: 40px;margin-left: 40px;">
-                <div class="column " style="padding-left: 40px; padding-top: 25px; padding-bottom: 0;">
-                    <a href="#instagram" class="fa fa-instagram " target="_blank "></a>
-                    <a href="#facebook" class="fa fa-facebook " target="_blank "></a>
-                    <a href="#twitter" class="fa fa-twitter " target="_blank "></a>
-                </div>
-
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
             </div>
+            <a href="# " class="product-name">School ID</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 300.00</p>
+          </div>
         </div>
-        <br>
-    </div>
-    <div class="footer" style="height: 50px;">
-        <div style=" float: left;">
-            <h1 style="padding-left: 40px; color: white; font-size: 15px; text-align: center;"> © JASM Printing Services 2022</h1>
+        <!-- 4 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/4.png"
+                alt="product image "
+                style="height: 310px; margin-left: -10px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Invitation Cards</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 120.00</p>
+          </div>
         </div>
-    </div>
-    
-    <!--end ng footer-->
-</body>
+        <!-- 5 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/5.png"
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Rent</h2>
+            </div>
+            <a href="# " class="product-name">Photoshoot Samples</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 500.00</p>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/6.png "
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Design</h2>
+            </div>
+            <a href="# " class="product-name">Tarpaulin</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 200.00</p>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/7.png"
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Bottle Labels</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 170.00</p>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/15.png"
+                alt="product image "
+                style="height: 400px; margin-left: -50px; margin-top: -50px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Style</h2>
+            </div>
+            <a href="# " class="product-name">T-Shirt Printing</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 300.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="products container animate__animated animate__fadeInUp animate__delay-2s"
+      id="E-Designs"
+    >
+      <h2 class="section-title">
+        <img
+          src="AllPics/ShopPics/Title2.png"
+          alt="E-Designs"
+          style="height: 60px; vertical-align: middle"
+        />
+      </h2>
+      <div class="product-items">
+        <!-- 1 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/9.png"
+                alt="product image "
+                style="height: 320px; margin-left: -4px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">A3/A4 Photo Mosaic</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 70.00</p>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/10.png"
+                alt="product image "
+                style="height: 310px; margin-left: 1px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Rent</h2>
+            </div>
+            <a href="# " class="product-name">Graduation Photoshoot</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 800.00</p>
+          </div>
+          <div class="off-info">
+            <h2 class="sm-title">Best Seller</h2>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/11.png"
+                alt="product image "
+                style="height: 310px; margin-left: -10px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Button Pin</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 40.00</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/12.png"
+                alt="product image "
+                style="height: 310px; margin-left: -10px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Personalized Tumblers</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 150.00</p>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/13.png"
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Personalized Mugs</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 120.00</p>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/14.png "
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">CD/DVD Direct Printing</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 60.00</p>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/8.png"
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Design</h2>
+            </div>
+            <a href="# " class="product-name">Printing Props</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 60.00</p>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/16.png"
+                alt="product image "
+                style="height: 400px; margin-left: -50px; margin-top: -50px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Key Chain Designs</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 100.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- E-Ideas -->
+    <section
+      class="products container animate__animated animate__fadeInUp animate__delay-3s"
+      id="E-Ideas"
+    >
+      <h2 class="section-title">
+        <img
+          src="AllPics/ShopPics/Title3.png"
+          alt="E-Ideas"
+          style="height: 60px; vertical-align: middle"
+        />
+      </h2>
+      <div class="product-items">
+        <!-- 1 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/17.png"
+                alt="product image "
+                style="height: 320px; margin-left: -4px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Bond</h2>
+            </div>
+            <a href="# " class="product-name">E Copy Bond Paper</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱100.00</p>
+          </div>
+          <div class="off-info">
+            <h2 class="sm-title">Best Seller</h2>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/18.png"
+                alt="product image "
+                style="height: 310px; margin-left: 1px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Heat Press Golf Umbrella</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 130.00</p>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/19.png"
+                alt="product image "
+                style="height: 310px; margin-left: -10px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Hand Press Flashlight </a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 70.00</p>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/20.png"
+                alt="product image "
+                style="height: 310px; margin-left: -10px; margin-top: -10px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Heat Press Eco Bag</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 100.00</p>
+          </div>
+        </div>
+        <!-- 5 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/21.png"
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Plate No. Stickers</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 200.00</p>
+          </div>
+        </div>
+        <!-- 6 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/22.png "
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Towel Cake</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 300.00</p>
+          </div>
+        </div>
+        <!-- 7 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/23.png"
+                alt="product image "
+                style="height: 420px; margin-left: -60px; margin-top: -60px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Paper</h2>
+            </div>
+            <a href="# " class="product-name">Vinyl Stickers</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 60.00</p>
+          </div>
+          <div class="off-info">
+            <h2 class="sm-title">Hot</h2>
+          </div>
+        </div>
+        <!-- 8 -->
+        <div class="product">
+          <div class="product-content">
+            <div class="product-img">
+              <img
+                src="AllPics/ShopPics/Picture/24.png"
+                alt="product image "
+                style="height: 400px; margin-left: -50px; margin-top: -50px"
+              />
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="product-info-top">
+              <h2 class="sm-title">Per Piece</h2>
+            </div>
+            <a href="# " class="product-name">Alcohol</a>
+            <p class="product-price"></p>
+            <p class="product-price">₱ 100.00</p>
+          </div>
+        </div>
+      </div>
+    </section>
 
+    <!-- TEAM III -->
+    <section class="row1">
+      <div class="column1">
+        <h2>Imagine</h2>
+        <img src="AllPics/ShopPics/Imagine.png" alt="Imagine" />
+      </div>
+      <div class="column1">
+        <h2>Innovate</h2>
+        <img src="AllPics/ShopPics/Innovate.png" alt="Innovate" />
+      </div>
+      <div class="column1">
+        <h2>Inspire</h2>
+        <img src="AllPics/ShopPics/Inspire.png" alt="Inspire" />
+      </div>
+    </section>
 
+    <img
+      class="img-foot"
+      src="AllPics/ShopPics/lower banner 1.png"
+      alt="Lower Banner"
+    />
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+      <div class="footer-widgets container">
+        <div class="widget">
+          <h4>
+            <img src="AllPics/HomePics/iPalette.png" alt="" /> All-Uniquely
+            Designed
+          </h4>
+          <p>Creative and fun designs uniquely made. #ChooseJASM</p>
+        </div>
+        <div class="widget">
+          <h4>
+            <img src="AllPics/HomePics/iPrice.png" alt="" /> Ethically Sourced
+          </h4>
+          <p>Responsibly sourced products for a sustainable future.</p>
+        </div>
+        <div class="widget">
+          <h4><img src="AllPics/HomePics/iAsk.png" alt="" /> Get In Touch</h4>
+          <p>Questions? We’re happy to assist you anytime.</p>
+        </div>
+      </div>
+      <div class="footer-bottom text-center">
+        <p>&copy; 2025 JASM Printing Services</p>
+        <div class="social-icons">
+          <a href="#" class="fa fa-instagram"></a>
+          <a
+            href="https://www.facebook.com/jasm.printing"
+            class="fa fa-facebook"
+          ></a>
+          <a href="#" class="fa fa-twitter"></a>
+        </div>
+      </div>
+      <div class="newsletter-form container">
+        <input
+          type="email"
+          placeholder="Email Address (Ex. johndoe@gmail.com)"
+          aria-label="your-email@example.com"
+          autocorrect="off"
+          autocapitalize="off"
+          name="contact[email]"
+        />
+        <input type="submit" value="Subscribe" />
+      </div>
+    </footer>
+  </body>
 </html>
