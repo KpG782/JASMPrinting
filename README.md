@@ -1,4 +1,4 @@
-# 🖨️ JASM Printing Services – Web Platform
+![image](https://github.com/user-attachments/assets/adf7f414-09cf-4ed4-a246-9049044addec)![image](https://github.com/user-attachments/assets/0f065a54-a917-4ed5-8525-ac4dea87a128)# 🖨️ JASM Printing Services – Web Platform
 
 Welcome to the official GitHub repository for **JASM Printing Services**, a modern and responsive business website showcasing our professional printing, design, and customization services in **Pasig, Metro Manila 🇵🇭**.
 
@@ -84,7 +84,13 @@ Built with 💚 by a passionate student team from the University of Makati:
 
 ## 📸 Screenshots Preview
 
-> (You can upload screenshots in this section using GitHub’s drag-and-drop feature or Markdown image embedding.)
+![image](https://github.com/user-attachments/assets/a4ae7bf5-465d-421c-aab5-e6cdcdc7569a)
+![image](https://github.com/user-attachments/assets/15db98d6-b7a8-4e08-ae6d-804e11d8d2f0)
+![image](https://github.com/user-attachments/assets/e10d3ebc-986c-4546-9bfb-b5a2e4c0df38)
+
+
+
+
 
 ---
 
